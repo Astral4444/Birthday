@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="styles/gallery.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="files/happy_birthday_chert.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-you.html">ABOUT YOU</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="gallery">
+        <img src="photos/photo10.jpg" alt="Фото 1" class="gallery-img">
+        <img src="photos/photo12.jpg" alt="Фото 2" class="gallery-img">
+        <img src="photos/photo15.jpg" alt="Фото 3" class="gallery-img">
+    </div>
+    <div class="gallery">
+        <img src="photos/photo01.jpg" alt="Фото 4" class="gallery-img">
+        <img src="photos/photo02.jpg" alt="Фото 5" class="gallery-img">
+        <img src="photos/photo03.jpg" alt="Фото 6" class="gallery-img">
+    </div>
+    <div class="gallery">
+        <img src="photos/photo19.jpg" alt="Фото 4" class="gallery-img">
+        <img src="photos/photo21.jpg" alt="Фото 5" class="gallery-img">
+        <img src="photos/photo20.jpg" alt="Фото 6" class="gallery-img">
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="modal-img">
+    </div>
+
+    <script src="scripts/gallery.js"></script>
+
+</body>
+</html>

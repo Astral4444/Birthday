@@ -64,6 +64,17 @@ nav a:hover::after{
     justify-content: center;
 }
 
+#happy-bd {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
 
 @font-face {
     font-weight: normal;
