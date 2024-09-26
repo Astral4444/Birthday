@@ -50,33 +50,10 @@ nav a:hover::after{
     display: grid;
 }
 
-.zhannat01{ 
-    display: grid;
-    height: auto;
-    justify-content: center;
-    color: white;
-    padding: 0;
-    background-color: #9267ad;
-}
-
-.zhannat01 h1{
-    padding: 1.2rem;
-    font-size: 2rem;
-}
-
-.zhannat01 p{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 1.2rem;
-}
-
-.zhannat01 a{
-    text-decoration: none;
-    list-style: none;
-    color: rgb(255, 213, 150);
-    font-size: 1.3rem;
-    padding: 2rem;
-
+.blocks{
+    width: 10rem;
+    height: 10rem;
+    background-color: #674188;
 }
 
 @font-face {
